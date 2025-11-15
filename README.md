@@ -2,6 +2,12 @@
 
 A clean 3-layer architecture for analyzing customer support tickets with AI, extracting insights, and generating executive reports.
 
+---
+
+### 📊 [View Example Report](https://html-preview.github.io/?url=https://github.com/jlousada315/support-ticket-analysis-pipeline/blob/main/report.html)
+
+---
+
 ## Quick Start
 
 ### Setup
@@ -120,4 +126,14 @@ CSV Input → Layer 1: Extract → Layer 2: Summarize → Layer 3: Report → Ou
 **Cache**: Auto-organized by layer
 - `data/analyses/{YYYY-MM}/{DD}/{ticket_id}.json`
 - `data/summaries/{date}.json`
+
+## Generated Reports
+
+The pipeline generates three report formats saved to `data/reports/`:
+
+| Format | Purpose |
+|--------|---------|
+| **HTML** | Interactive formatted report with styling and color-coding |
+| **Markdown** | GitHub-native rendering with full formatting |
+| **JSON** | Structured data for programmatic integration |
 
