@@ -110,7 +110,7 @@ CSV Input → Layer 1: Extract → Layer 2: Summarize → Layer 3: Report → Ou
 
 ## Input/Output
 
-**Input**: `data/sofa-sogood.csv`
+**Input**: `data/*.csv`
 - Columns: `original_message`, `ds` (ISO timestamp), `extra` (JSON metadata)
 
 **Output**: `data/reports/`
